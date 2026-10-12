@@ -1,0 +1,16 @@
+config_version = 1
+source_roots = []
+
+[paths]
+force_database = 'data/force_efficiency.sqlite3'
+battery_database = 'data/battery_discharge.sqlite3'
+pack_library = 'data/battery_pack_models.sqlite3'
+force_raw = 'raw/force'
+battery_raw = 'raw/battery'
+state = 'state'
+outputs = 'outputs'
+backups = 'backups'
+
+[database_ids]
+force = 'uav-force-20261012'
+battery = 'uav-battery-20261012'

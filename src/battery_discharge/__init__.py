@@ -1,0 +1,1 @@
+"""Battery discharge data management."""

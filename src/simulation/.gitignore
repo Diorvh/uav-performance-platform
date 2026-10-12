@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+outputs/
+battery_pack_models.sqlite3*

@@ -1,0 +1,12 @@
+data/
+raw/
+outputs/
+backups/
+state/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+config/runtime.json
+config/paths.local.toml

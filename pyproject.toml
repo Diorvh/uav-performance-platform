@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-performance-platform"
+version = "0.1.0"
+description = "力效与电芯放电数据管理及悬停续航仿真"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["matplotlib==3.10.8", "openpyxl==3.1.5"]
+
+[project.scripts]
+uav-performance = "launcher:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["platform_config", "launcher"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
